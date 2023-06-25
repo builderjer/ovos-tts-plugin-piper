@@ -124,7 +124,7 @@ class PiperTTSPlugin(TTS):
         'vos-x-low': 'https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-vi-vivos-x-low.tar.gz'
     }
 
-    def __init__(self, lang="en-us", config=None):
+    def __init__(self, lang="en-gb", config=None):
         super(PiperTTSPlugin, self).__init__(lang, config)
         model = self.config.get("model") or \
                 self.lang2voices.get(lang) or \
