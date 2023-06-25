@@ -1,3 +1,3 @@
 espeak-phonemizer>=1.1.0,<2
 onnxruntime
---pre ovos-plugin-manager
+ovos-plugin-manager
